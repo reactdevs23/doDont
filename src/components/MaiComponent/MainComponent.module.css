@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: var(--background);
 }
 .wrapper {
   max-width: 1100px;
@@ -32,22 +33,20 @@
   min-height: calc(100vh - 100px);
 }
 .dos {
-  background: var(--primaryColor);
+  background: var(--background);
 }
 .donts {
-  background: var(--secondaryColor);
+  background: var(--background);
 }
 .iconContainer {
   border-radius: 50%;
-  background: var(--secondaryColor);
+  background: var(--iconBg);
   width: 100px;
   height: 100px;
   position: relative;
   transform: translate(5%, 5%);
 }
-.donts .iconContainer {
-  background: var(--primaryColor);
-}
+
 .icon {
   font-size: 70px;
 
